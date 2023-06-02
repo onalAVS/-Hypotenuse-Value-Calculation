@@ -1,8 +1,8 @@
 print("Welcome to Body-Mass Index Calculation")
 
-weight = input("Enter Weight = ")
-
-height = input("Enter your height (cm) = ")
+#Your Datas
+weight = input("Enter Your Weight = ")
+height = input("Enter Your Height (cm form) = ")
 
 if not bool(weight) or not bool(height):
     print("Incorrect entry !!!")
