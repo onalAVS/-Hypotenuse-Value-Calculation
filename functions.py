@@ -17,7 +17,7 @@ def calculate_square(side_length):
     area = side_length ** 2
     return perimeter, area
 
-# Example usage
+# Example usage for Square
 side_length = float(input("Enter the side length of the square: "))
 square_perimeter, square_area = calculate_square(side_length)
 
